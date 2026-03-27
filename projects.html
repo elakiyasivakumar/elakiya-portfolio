@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Projects | Elakiya Sivakumar</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Be+Vietnam+Pro:wght@300;400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary-fixed-dim": "#eeb0ff",
+              "on-error-container": "#ffdad6",
+              "tertiary-fixed-dim": "#d9b9ff",
+              "inverse-on-surface": "#312f36",
+              "secondary-fixed": "#ffd7f0",
+              "tertiary-fixed": "#eedbff",
+              "on-primary-fixed-variant": "#76009b",
+              "on-secondary": "#511c46",
+              "surface-container-high": "#2b2930",
+              "outline-variant": "#504253",
+              "surface-dim": "#141319",
+              "on-error": "#690005",
+              "error-container": "#93000a",
+              "error": "#ffb4ab",
+              "surface-bright": "#3a383f",
+              "on-secondary-fixed-variant": "#6b335d",
+              "primary-container": "#b829ea",
+              "on-tertiary": "#460085",
+              "on-secondary-container": "#eaa2d4",
+              "on-tertiary-fixed-variant": "#6400ba",
+              "outline": "#9d8b9f",
+              "on-primary-container": "#fffcff",
+              "surface-container": "#201f25",
+              "on-tertiary-fixed": "#2a0054",
+              "surface-container-highest": "#35343b",
+              "secondary": "#f9b0e3",
+              "inverse-surface": "#e5e1ea",
+              "tertiary": "#d9b9ff",
+              "surface-tint": "#eeb0ff",
+              "secondary-container": "#6d3560",
+              "on-surface": "#e5e1ea",
+              "on-primary-fixed": "#330045",
+              "primary": "#eeb0ff",
+              "surface-container-lowest": "#0e0d13",
+              "primary-fixed": "#fad7ff",
+              "on-tertiary-container": "#fffcff",
+              "surface": "#141319",
+              "tertiary-container": "#9940ff",
+              "inverse-primary": "#9b00ca",
+              "surface-variant": "#35343b",
+              "on-secondary-fixed": "#37052f",
+              "on-primary": "#53006e",
+              "surface-container-low": "#1c1b21",
+              "secondary-fixed-dim": "#f9b0e3",
+              "on-surface-variant": "#d4c0d5",
+              "background": "#141319",
+              "on-background": "#e5e1ea"
+            },
+            fontFamily: {
+              "headline": ["Space Grotesk"],
+              "body": ["Be Vietnam Pro"],
+              "label": ["Space Grotesk"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(20, 19, 25, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(184, 41, 234, 0.1);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glass-card:hover {
+            border-color: rgba(184, 41, 234, 0.5);
+            box-shadow: 0 0 30px rgba(184, 41, 234, 0.15);
+            transform: translateY(-2px);
+        }
+        .neon-glow-text {
+            text-shadow: 0 0 10px rgba(184, 41, 234, 0.5);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body selection:bg-primary-container selection:text-white">
+<nav class="fixed top-0 w-full z-50 bg-black/60 backdrop-blur-md border-b border-white/10 shadow-2xl shadow-purple-900/20">
+<div class="flex flex-wrap items-center justify-between gap-x-3 gap-y-3 max-w-7xl mx-auto px-4 py-3 min-h-[4rem] md:min-h-[5rem] md:px-6 md:py-4">
+<a href="index.html" class="shrink-0 text-base sm:text-lg md:text-xl font-black tracking-tighter text-fuchsia-500 font-headline uppercase">Elakiya Sivakumar</a>
+<div class="order-3 flex min-w-0 w-full flex-wrap items-center justify-center gap-x-3 gap-y-2 sm:order-2 sm:flex-1 sm:w-auto md:gap-x-6 lg:gap-x-10">
+<a class="whitespace-nowrap font-headline text-[11px] font-bold tracking-tight text-zinc-400 uppercase hover:text-white sm:text-xs md:tracking-normal transition-colors px-1.5 py-1 sm:px-2" href="experience.html">EXPERIENCE</a>
+<a class="whitespace-nowrap border-b-2 border-fuchsia-500 pb-0.5 font-headline text-[11px] font-bold tracking-tight text-fuchsia-400 uppercase sm:text-xs md:tracking-normal px-1.5 py-1 sm:px-2" href="projects.html">PROJECTS</a>
+<a class="whitespace-nowrap font-headline text-[11px] font-bold tracking-tight text-zinc-400 uppercase hover:text-white sm:text-xs md:tracking-normal transition-colors px-1.5 py-1 sm:px-2" href="perspectives.html">PERSPECTIVES</a>
+<a class="whitespace-nowrap font-headline text-[11px] font-bold tracking-tight text-zinc-400 uppercase hover:text-white sm:text-xs md:tracking-normal transition-colors px-1.5 py-1 sm:px-2" href="publications.html">PUBLICATIONS</a>
+</div>
+</div>
+</nav>
+<main class="pt-44 pb-20 px-6 sm:pt-40 md:pt-32">
+<div class="max-w-3xl mx-auto">
+<header class="mb-10">
+<h1 class="text-5xl md:text-7xl font-headline font-bold tracking-tighter mb-4 text-on-background neon-glow-text">
+                    <span class="text-white">Proj</span><span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">ects</span>
+                </h1>
+<p class="text-on-surface-variant text-base leading-relaxed font-body max-w-2xl">
+                    Selected work across surgical ergonomics, health UX, signal processing, and generative ML.
+                </p>
+</header>
+<div class="space-y-5">
+<article id="project-surgical-ergonomics" class="glass-card rounded-xl overflow-hidden group scroll-mt-28">
+<div class="flex flex-row items-start gap-4 p-4 md:p-5">
+<div class="w-[4.5rem] h-[4.5rem] sm:w-24 sm:h-24 shrink-0 rounded-lg overflow-hidden border border-white/10">
+<img alt="Surgical ergonomics — InSim" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="media/hugo/surgical-ergonomics.png"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex flex-wrap items-center gap-2 mb-2">
+<span class="px-2 py-0.5 bg-primary/10 text-primary text-xs font-headline tracking-widest uppercase rounded border border-primary/20">Design &amp; innovation</span>
+<span class="px-2 py-0.5 bg-primary/10 text-primary text-xs font-headline tracking-widest uppercase rounded border border-primary/20">Surgical ergonomics</span>
+</div>
+<h2 class="text-lg md:text-xl font-headline font-bold text-on-background mb-2 group-hover:text-primary transition-colors">Surgical Ergonomics (InSim)</h2>
+<p class="text-on-surface-variant text-sm mb-4 leading-relaxed">
+                                AI-driven video analysis to give surgeons visual feedback on posture during procedures—grounded in interviews with residents and ergonomic experts, with a path toward FDA De Novo Class II and hospital partnerships.
+                            </p>
+<div class="flex items-center gap-4">
+<a class="flex items-center gap-2 text-primary font-headline text-xs font-bold tracking-wide hover:gap-3 transition-all" href="#project-surgical-ergonomics">
+                                    View project
+                                    <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+<article id="project-turtlewrap" class="glass-card rounded-xl overflow-hidden group scroll-mt-28">
+<div class="flex flex-row items-start gap-4 p-4 md:p-5">
+<div class="w-[4.5rem] h-[4.5rem] sm:w-24 sm:h-24 shrink-0 rounded-lg overflow-hidden border border-white/10">
+<img alt="TurtleWrap product" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="media/hugo/turtlewrap.jpg"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex flex-wrap items-center gap-2 mb-2">
+<span class="px-2 py-0.5 bg-tertiary-container/10 text-tertiary text-xs font-headline tracking-widest uppercase rounded border border-tertiary-container/20">Human centered design</span>
+</div>
+<h2 class="text-lg md:text-xl font-headline font-bold text-on-background mb-2 group-hover:text-primary transition-colors">TurtleWrap — Design for Mothers</h2>
+<p class="text-on-surface-variant text-sm mb-4 leading-relaxed">
+                                Infant carrier for everyday use that converts for flood evacuation—interviews with mothers in disaster-prone areas, iterative pivot from “pet carrier” concepts toward culturally familiar wraps and weatherproofing.
+                            </p>
+<div class="flex items-center gap-4">
+<a class="flex items-center gap-2 text-primary font-headline text-xs font-bold tracking-wide hover:gap-3 transition-all" href="#project-turtlewrap">
+                                    View project
+                                    <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+<article id="project-er-experience" class="glass-card rounded-xl overflow-hidden group scroll-mt-28">
+<div class="flex flex-row items-start gap-4 p-4 md:p-5">
+<div class="w-[4.5rem] h-[4.5rem] sm:w-24 sm:h-24 shrink-0 rounded-lg overflow-hidden border border-white/10">
+<img alt="ER experience redesign — quickER" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="media/hugo/er-experience.png"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex flex-wrap items-center gap-2 mb-2">
+<span class="px-2 py-0.5 bg-primary/10 text-primary text-xs font-headline tracking-widest uppercase rounded border border-primary/20">Healthcare</span>
+<span class="px-2 py-0.5 bg-primary/10 text-primary text-xs font-headline tracking-widest uppercase rounded border border-primary/20">Digitalization</span>
+</div>
+<h2 class="text-lg md:text-xl font-headline font-bold text-on-background mb-2 group-hover:text-primary transition-colors">Redesigning Patient Experience in the ER (quickER)</h2>
+<p class="text-on-surface-variant text-sm mb-4 leading-relaxed">
+                                NYC ER wait times average ~201 minutes; team explored digital-first flows and prototyping (Figma) to improve clarity and throughput for patients and staff.
+                            </p>
+<div class="flex items-center gap-4">
+<a class="flex items-center gap-2 text-primary font-headline text-xs font-bold tracking-wide hover:gap-3 transition-all" href="#project-er-experience">
+                                    View project
+                                    <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+<article id="project-eeg-iot" class="glass-card rounded-xl overflow-hidden group scroll-mt-28">
+<div class="flex flex-row items-start gap-4 p-4 md:p-5">
+<div class="w-[4.5rem] h-[4.5rem] sm:w-24 sm:h-24 shrink-0 rounded-lg overflow-hidden border border-white/10">
+<img alt="EEG acquisition system" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="media/hugo/eeg-signal.png"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex flex-wrap items-center gap-2 mb-2">
+<span class="px-2 py-0.5 bg-primary/10 text-primary text-xs font-headline tracking-widest uppercase rounded border border-primary/20">Biomedical engineering</span>
+<span class="px-2 py-0.5 bg-tertiary-container/10 text-tertiary text-xs font-headline tracking-widest uppercase rounded border border-tertiary-container/20">Signal acquisition</span>
+</div>
+<h2 class="text-lg md:text-xl font-headline font-bold text-on-background mb-2 group-hover:text-primary transition-colors">EEG Signal Acquisition, IoT &amp; Event Detection</h2>
+<p class="text-on-surface-variant text-sm mb-4 leading-relaxed">
+                                10–20 electrode EEG front-end (AD620 / AD822), MATLAB / EEGLAB cleaning, wavelets, 1D CNN for rest vs. action, plus AWS IoT patterns for remote storage and analytics.
+                            </p>
+<div class="flex items-center gap-4">
+<a class="flex items-center gap-2 text-primary font-headline text-xs font-bold tracking-wide hover:gap-3 transition-all" href="https://www.kaggle.com/elakiyasivakumar/cnn1d" target="_blank" rel="noopener noreferrer">
+                                    Sample notebook
+                                    <span class="material-symbols-outlined text-sm">arrow_outward</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+<article id="project-genai-spine" class="glass-card rounded-xl overflow-hidden group scroll-mt-28">
+<div class="flex flex-row items-start gap-4 p-4 md:p-5">
+<div class="w-[4.5rem] h-[4.5rem] sm:w-24 sm:h-24 shrink-0 rounded-lg overflow-hidden border border-white/10">
+<img alt="GAN architecture — medical image augmentation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="media/hugo/genai-augmentation.png"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex flex-wrap items-center gap-2 mb-2">
+<span class="px-2 py-0.5 bg-tertiary-container/10 text-tertiary text-xs font-headline tracking-widest uppercase rounded border border-tertiary-container/20">Gen AI</span>
+<span class="px-2 py-0.5 bg-primary/10 text-primary text-xs font-headline tracking-widest uppercase rounded border border-primary/20">Medical images</span>
+</div>
+<h2 class="text-lg md:text-xl font-headline font-bold text-on-background mb-2 group-hover:text-primary transition-colors">Data Augmentation with Generative AI (VinDr SpineXR)</h2>
+<p class="text-on-surface-variant text-sm mb-4 leading-relaxed">
+                                Classical augmentations vs. DCGAN / WGAN on a spinal X-ray dataset; hybrid pipeline combining best manual augmentations with WGAN outputs for stronger classifier performance.
+                            </p>
+<div class="flex items-center gap-4">
+<a class="flex items-center gap-2 text-primary font-headline text-xs font-bold tracking-wide hover:gap-3 transition-all" href="#project-genai-spine">
+                                    View project
+                                    <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</main>
+<footer class="w-full py-20 border-t border-zinc-900 bg-[#141319]">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 max-w-7xl mx-auto w-full gap-8">
+<p class="font-['JetBrains_Mono'] text-[10px] tracking-[0.2em] uppercase text-zinc-500 mb-0">
+                © 2025 Elakiya Sivakumar
+            </p>
+<div class="flex flex-wrap gap-8 justify-center">
+<a class="font-['JetBrains_Mono'] text-[10px] tracking-[0.2em] uppercase text-zinc-600 hover:text-fuchsia-300 transition-colors opacity-70 hover:opacity-100" href="https://www.linkedin.com/in/elakiya-sivakumar/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a class="font-['JetBrains_Mono'] text-[10px] tracking-[0.2em] uppercase text-zinc-600 hover:text-fuchsia-300 transition-colors opacity-70 hover:opacity-100" href="https://github.com/elakiya04" target="_blank" rel="noopener noreferrer">GitHub</a>
+</div>
+</div>
+</footer>
+</body>
+</html>
